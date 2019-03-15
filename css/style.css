@@ -318,10 +318,10 @@ b {
 /*   Background Images for demos
 /*------------------------------------------*/
 .bg-img {
-    background: url("../images/bg-1.jpg") no-repeat center center scroll;
+    background: url("../images/menina_computador.png") no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size:cover;
-    background-size: cover;  
+    -moz-background-size: cover;
+    background-size: cover;
 }
 
 /*------------------------------------------*/

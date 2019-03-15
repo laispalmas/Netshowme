@@ -93,7 +93,22 @@
                     <div class="collapse navbar-collapse cta-header" id="navbar-collapse">
                         <!-- Menu Links -->
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html" class="smooth-scroll">Voltar</a></li>
+                            <li><a href="area-assinante-usuario-home.html" class="smooth-scroll"><i class="fa fa-home"></i> Painel</a></li>
+
+                            <li class="dropdown">
+                                    <a id="dLabel" data-toggle="dropdown" data-target="#" href="#">
+                                        <i class="fa fa-bell"></i>  Notificações <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu multi-level" role="menu">
+                                      <li><a href="../extra-pages/blog-list.html">Sua pergunta em<br />PHP Iniciantes<br />foi respondida</a></li>
+                                        <li class="divider"></li>
+                                      <li><a href="../extra-pages/blog-single.html">Confira: Novo<br />curso de JS</a></li>
+                                        <li class="divider"></li>
+                                      <li><a href="../extra-pages/faq.html">CSS foi excluído<br />da sua lista de<br />favoritos</a></li>
+                                    </ul>
+                                </li>
+
+                            <li><a href="index.html" class="smooth-scroll"><i class="fa fa-sign-out"></i> Log-out</a></li>
                         </ul><!-- /End Menu Links -->
                     </div><!-- /End Navbar Collapse -->
                 </div><!-- /End Container -->
@@ -118,9 +133,9 @@
                                 <div class="profile-usertitle-name">
                                     Denis Alves
                                 </div>
-                                <div class="profile-usertitle-job">
+                                <!--<div class="profile-usertitle-job">
                                     <a href="">Alterar foto</a>
-                                </div>
+                                </div>-->
                             </div>
                             <!-- END SIDEBAR USER TITLE -->
                             <!-- SIDEBAR BUTTONS -->
@@ -134,30 +149,33 @@
                                 <ul class="nav">
                                     <li>
                                         <!--class="active"-->
-                                        <a href="#">
+                                        <a href="area-assinante-usuario-videos.html">
                                             <i class="fa fa-play-circle"></i>
                                             Vídeos
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="area-assinante-usuario-catalogo.html">
                                             <i class="fa fa-book"></i>
-                                            Relatórios
+                                            Catálogo
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank">
+                                        <a href="area-assinante-usuario-envelope.html" target="_blank">
                                             <i class="fa fa-envelope"></i>
                                             Caixa de entrada
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="area-assinante-usuario-conta.html">
                                             <i class="fa fa-eye"></i>
                                             Minha conta
                                         </a>
                                     </li>
                                 </ul>
+                                <br />
+                                <br />
+                                <p style="font-size:small;padding-left:15px"><a href="#"><span class="text-white"><i class="fa fa-sign-out"></i> sair</span></a></p>
                             </div>
                             <!-- END MENU -->
                         </div>
@@ -165,49 +183,81 @@
                     <div class="col-md-10">
                         <div class="profile-content">
                             <h2>Olá, Denis,</h2>
-                            <div class="row">
-                                <div class="col-md-12 content-block c3">
-                                    <!-- Blog Post -->
-                                    <div class="col-sm-4">
-                                        <a href="#">
-                                            <img class="img-responsive img-rounded" alt="" src="images/img-1.jpg">
-                                        </a>
-                                        <div class="post-info bg-edit p-t">
-                                            <a href="#"><h5>10 formas de desenrolar um briefing</h5></a>
-                                            <h6 class="p-opacity">Por Bernardo de Paula in <strong>Web Design Course</strong></h6>
-                                        </div>
-                                        <!--<p class="p-opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, odio eum magni optio laborum non et accusamus, itaque.</p>-->
-                                        <p style="float:left"><a class="more-link edit small" href=""><i class="fa fa-trash"></i> Remover</a></p>
-                                        <p style="float:right"><a class="more-link edit small text-right" href=""><i class="fa fa-play-circle"></i> Continuar assistindo</a></p>
-                                    </div>
-                                    <!-- Blog Post -->
-                                    <div class="col-sm-4">
-                                        <a href="#">
-                                            <img class="img-responsive img-rounded" alt="" src="images/img-1.jpg">
-                                        </a>
-                                        <div class="post-info bg-edit p-t">
-                                            <a href="#"><h5>10 formas de desenrolar um briefing</h5></a>
-                                            <h6 class="p-opacity">Por Bernardo de Paula in <strong>Web Design Course</strong></h6>
-                                        </div>
-                                        <!--<p class="p-opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, odio eum magni optio laborum non et accusamus, itaque.</p>-->
-                                        <p style="float:left"><a class="more-link edit small" href=""><i class="fa fa-trash"></i> Remover</a></p>
-                                        <p style="float:right"><a class="more-link edit small text-right" href=""><i class="fa fa-play-circle"></i> Continuar assistindo</a></p>
-                                    </div>
-                                    <!-- Blog Post -->
-                                    <div class="col-sm-4">
-                                        <a href="#">
-                                            <img class="img-responsive img-rounded" alt="" src="images/img-1.jpg">
-                                        </a>
-                                        <div class="post-info bg-edit p-t">
-                                            <a href="#"><h5>10 formas de desenrolar um briefing</h5></a>
-                                            <h6 class="p-opacity">Por Bernardo de Paula in <strong>Web Design Course</strong></h6>
-                                        </div>
-                                        <!--<p class="p-opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, odio eum magni optio laborum non et accusamus, itaque.</p>-->
-                                        <p style="float:left"><a class="more-link edit small" href=""><i class="fa fa-trash"></i> Remover</a></p>
-                                        <p style="float:right"><a class="more-link edit small text-right" href=""><i class="fa fa-play-circle"></i> Continuar assistindo</a></p>
-                                    </div>
+
+                            <br />
+
+                            <div class="col-sm-12">
+                                <h3>Seus vídeos</h3>
+                            </div>
+                            <!-- Blog Post -->
+                            <div class="col-sm-4">
+                                <a href="#">
+                                    <img class="img-responsive img-rounded" alt="" src="images/img-1.jpg">
+                                </a>
+                                <div class="post-info bg-edit p-t">
+                                    <a href="#"><h5>10 formas de desenrolar um briefing</h5></a>
+                                    <h6 class="p-opacity">Por Bernardo de Paula in <strong>Web Design Course</strong></h6>
                                 </div>
-                            </div><!-- /End Row -->
+                                <!--<p class="p-opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, odio eum magni optio laborum non et accusamus, itaque.</p>-->
+                                <p style="float:left"><a class="more-link edit small" href=""><i class="fa fa-trash"></i> Remover</a></p>
+                                <p style="float:right"><a class="more-link edit small text-right" href=""><i class="fa fa-play-circle"></i> Continuar assistindo</a></p>
+                            </div>
+                            <!-- Blog Post -->
+                            <div class="col-sm-4">
+                                <a href="#">
+                                    <img class="img-responsive img-rounded" alt="" src="images/img-1.jpg">
+                                </a>
+                                <div class="post-info bg-edit p-t">
+                                    <a href="#"><h5>10 formas de desenrolar um briefing</h5></a>
+                                    <h6 class="p-opacity">Por Bernardo de Paula in <strong>Web Design Course</strong></h6>
+                                </div>
+                                <!--<p class="p-opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, odio eum magni optio laborum non et accusamus, itaque.</p>-->
+                                <p style="float:left"><a class="more-link edit small" href=""><i class="fa fa-trash"></i> Remover</a></p>
+                                <p style="float:right"><a class="more-link edit small text-right" href=""><i class="fa fa-star"></i> Marcado como favorito</a></p>
+                            </div>
+                            <!-- Blog Post -->
+                            <div class="col-sm-4">
+                                <a href="#">
+                                    <img class="img-responsive img-rounded" alt="" src="images/img-1.jpg">
+                                </a>
+                                <div class="post-info bg-edit p-t">
+                                    <a href="#"><h5>10 formas de desenrolar um briefing</h5></a>
+                                    <h6 class="p-opacity">Por Bernardo de Paula in <strong>Web Design Course</strong></h6>
+                                </div>
+                                <!--<p class="p-opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, odio eum magni optio laborum non et accusamus, itaque.</p>-->
+                                <p style="float:left"><a class="more-link edit small" href=""><i class="fa fa-trash"></i> Remover</a></p>
+                                <p style="float:right"><a class="more-link edit small text-right" href=""><i class="fa fa-calendar"></i> Salve na agenda</a></p>
+                            </div>
+
+
+                            <div class="col-sm-12 p-t">
+                                <br />
+                                <h3>Suas anotações</h3>
+                                <br />
+                            </div>
+                            <!-- Features Items -->
+                            <div class="row text-center features-block c3 m-t-lg">
+                                <div class="col-md-3">
+                                    <a href="#">
+                                        <i class="fa fa-file-o text-blue"></i>
+                                        <br />
+                                        <h4>Teoria das cores- estudar</h4>
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#">
+                                        <i class="fa fa-file-o text-blue"></i>
+                                        <h4>PHP</h4>
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#">
+                                        <i class="fa fa-file-o text-blue"></i>
+                                        <h4>Links de site testers</h4>
+                                    </a>
+                                </div>
+                            </div><!-- /End Features-Block -->
+
                         </div>
 
                     </div>

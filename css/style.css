@@ -4644,3 +4644,18 @@ input.toggle-round-flat:checked + label:after {
   background: #fff;
   min-height: 460px;
 }
+
+
+
+
+
+/* Card Video */
+.img-card-video {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.container-card-video {
+    padding: 15px;
+    border: 1px solid #cccccc;
+}
